@@ -282,7 +282,7 @@ Attackers alter what the server sends back.
 
 •	Remove security flags (Secure, HttpOnly)
 
-➡ Attacker logs in without a password
+ Attacker logs in without a password
 
 4️ HTTPS Interception (Advanced)
 
@@ -384,7 +384,7 @@ What Attackers Manipulate Using Replays
 
 •	Repeat refund / reward actions
 
-➡ Results: free items, money loss
+ Results: free items, money loss
 
 2️ Authorization Bypass
 
@@ -394,7 +394,7 @@ What Attackers Manipulate Using Replays
 
 /api/order?id=1001 → /api/order?id=1002
 
-➡ Access to other users’ data (IDOR)
+ Access to other users’ data (IDOR)
 
 3️ Privilege Escalation
 
@@ -406,7 +406,7 @@ role=user
 
 role=admin
 
-➡ If server trusts the request → admin access
+If server trusts the request → admin access
 
 4️ Rate-Limit & OTP Abuse
 
@@ -414,7 +414,7 @@ role=admin
 
 •	No server-side tracking
 
-➡ Brute-force, account takeover
+ Brute-force, account takeover
 
 5️ Race Conditions
 
@@ -422,7 +422,7 @@ role=admin
 
 •	Server processes them concurrently
 
-➡ Double spending, duplicate actions
+ Double spending, duplicate actions
 
 6️ Session Hijacking
 
@@ -430,7 +430,7 @@ role=admin
 
 •	No password required
 
-➡ Full account access
+ Full account access
 
 Why Servers Fail to Stop Replays
 
